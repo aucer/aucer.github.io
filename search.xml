@@ -4,6 +4,93 @@
   
     
     <entry>
+      <title>Aucer&#39;s Game Development Notes</title>
+      <link href="/2026/05/10/future/"/>
+      <url>/2026/05/10/future/</url>
+      
+        <content type="html"><![CDATA[<h1 id="遊戲開發筆記（Roadmap）"><a href="#遊戲開發筆記（Roadmap）" class="headerlink" title="遊戲開發筆記（Roadmap）"></a>遊戲開發筆記（Roadmap）</h1><p>這裡整理遊戲開發學習與未來內容規劃。</p><p>整體分為：</p><ul><li>遊戲設計思維</li><li>程式設計與 .NET 生態</li><li>引擎開發（Godot）</li><li>網路與多人系統</li><li>美術與動畫</li><li>音訊與演出</li><li>工具與發佈</li><li>工具與自動化（Pipeline）</li><li>架構與系統設計</li><li>技術研究</li></ul><hr><h2 id="遊戲設計"><a href="#遊戲設計" class="headerlink" title="遊戲設計"></a>遊戲設計</h2><ul><li>你是喜歡設計體驗，還是只是喜歡體驗</li><li>為什麼想做遊戲</li><li>正視自己的內心，找到創作初衷</li><li>經典熱門遊戲如何聚焦核心玩法</li><li>先求有再求好</li><li>本命類型與創作方向</li><li>開發遊戲時，從 Steam 同類型遊戲的評論整理玩家需求</li><li>為什麼玩家要買你的遊戲</li><li>如何用一句話描述遊戲（20字內）</li><li>為什麼玩家會持續玩你的遊戲</li><li>你想讓玩家獲得什麼體驗</li><li>櫻井政博的遊戲設計 YouTube</li><li>鳴潮與型月營運思路分析</li></ul><hr><h2 id="程式設計與-NET-生態"><a href="#程式設計與-NET-生態" class="headerlink" title="程式設計與 .NET 生態"></a>程式設計與 .NET 生態</h2><h3 id="工具流程"><a href="#工具流程" class="headerlink" title="工具流程"></a>工具流程</h3><ul><li>Visual Studio</li><li>Git &#x2F; GitHub</li><li>Fork（Git GUI）</li><li>AI 輔助開發工作流</li></ul><hr><h3 id="C-語言核心"><a href="#C-語言核心" class="headerlink" title="C# 語言核心"></a>C# 語言核心</h3><ul><li>C# 基礎與進階</li><li>Action &#x2F; Func &#x2F; Delegate</li><li>Event &#x2F; Observer</li><li>Async &#x2F; Await &#x2F; Task</li><li>LINQ 基礎</li><li>JSON &#x2F; XML</li><li>序列化與反序列化</li><li>API 資料交換格式</li></ul><hr><h3 id="NET-執行環境與版本"><a href="#NET-執行環境與版本" class="headerlink" title=".NET 執行環境與版本"></a>.NET 執行環境與版本</h3><ul><li>.NET Runtime（CLR &#x2F; GC &#x2F; JIT）</li><li>.NET Framework vs .NET Core vs .NET 5+ 差異</li><li>不同 .NET 版本 API 與特性差異</li><li>NuGet 套件管理系統</li><li>Dependency（依賴）管理</li><li>DLL &#x2F; Assembly 載入機制</li><li>跨平台（Windows &#x2F; Linux &#x2F; Mac）</li></ul><hr><h3 id="程式結構與語言設計"><a href="#程式結構與語言設計" class="headerlink" title="程式結構與語言設計"></a>程式結構與語言設計</h3><ul><li>Namespace 作用域與設計</li><li>Class &#x2F; Struct &#x2F; Record 差異</li><li>Interface 設計</li><li>Abstract class vs Interface</li><li>Access Modifier（public &#x2F; private &#x2F; protected &#x2F; internal）</li><li>Extension Method</li><li>Partial class</li></ul><hr><h3 id="C"><a href="#C" class="headerlink" title="C++"></a>C++</h3><ul><li>C++ 基礎語法</li><li>記憶體管理（Stack &#x2F; Heap）</li><li>指標與參考</li><li>C# vs C++ 使用場景</li></ul><hr><h3 id="架構設計（軟體工程核心）"><a href="#架構設計（軟體工程核心）" class="headerlink" title="架構設計（軟體工程核心）"></a>架構設計（軟體工程核心）</h3><ul><li>MVC（Model &#x2F; View &#x2F; Controller）</li><li>CQRS（職責拆分）</li><li>Dependency Injection（依賴注入）</li><li>Dependency Inversion Principle（依賴反轉）</li><li>事件系統設計</li><li>UI 與資料分離</li><li>專案分層設計</li><li>可維護與可復用架構</li><li>模組化設計</li><li>擴充性設計</li><li>易讀程式碼</li></ul><hr><h2 id="Godot-開發"><a href="#Godot-開發" class="headerlink" title="Godot 開發"></a>Godot 開發</h2><ul><li>Godot 入門</li><li>Node &#x2F; Scene 架構</li><li>Signal 系統</li><li>UI 系統</li><li>Input 系統</li><li>Resource 系統</li><li>Autoload</li><li>Animation 系統</li><li>Shader</li><li>Save &#x2F; Load</li><li>Multiplayer</li><li>Tool Script</li><li>Editor Plugin</li><li>Godot C++</li><li>Spine2D 整合</li><li>專案結構設計</li><li>效能優化</li></ul><hr><h2 id="網路與多人系統"><a href="#網路與多人系統" class="headerlink" title="網路與多人系統"></a>網路與多人系統</h2><ul><li>TCP</li><li>UDP</li><li>WebRTC</li><li>ENet</li><li>IPv4 基礎</li><li>同步與延遲處理</li><li>Multiplayer 架構設計</li></ul><hr><h2 id="美術與動畫"><a href="#美術與動畫" class="headerlink" title="美術與動畫"></a>美術與動畫</h2><ul><li>Stable Diffusion &#x2F; LoRA</li><li>AI 補圖與角色拆分</li><li>Spine2D 骨骼動畫</li><li>Spine2D 輸出設定</li><li>骨骼優化（剪枝 &#x2F; performance）</li><li>關鍵幀與動作設計</li><li>剪影動畫技巧</li><li>色彩與色板統一</li><li>圖片格式對渲染影響</li><li>素材壓縮與打包</li></ul><hr><h2 id="音訊與演出"><a href="#音訊與演出" class="headerlink" title="音訊與演出"></a>音訊與演出</h2><ul><li>Audacity 音效編輯</li><li>Suno 音樂生成</li><li>AI 語音合成</li><li>AI 劇本輔助</li><li>演出系統設計</li><li>事件驅動音效播放</li></ul><hr><h2 id="工具與發佈"><a href="#工具與發佈" class="headerlink" title="工具與發佈"></a>工具與發佈</h2><ul><li>Hexo 個人網站</li><li>Butterfly 主題</li><li>Markdown 寫作</li><li>SEO 技巧</li><li>GitHub Pages 部署</li><li>itch.io 發佈流程</li><li>自建網站部署流程</li></ul><hr><h2 id="工具與自動化（Pipeline）"><a href="#工具與自動化（Pipeline）" class="headerlink" title="工具與自動化（Pipeline）"></a>工具與自動化（Pipeline）</h2><ul><li>Batch Script（.bat）</li><li>Python 腳本工具開發</li><li>批次檔案命名與整理</li><li>批次圖片轉換（png &#x2F; webp &#x2F; atlas）</li><li>音效批次處理（wav &#x2F; ogg）</li><li>資源自動整理 pipeline</li><li>資料夾結構自動生成</li><li>Godot import 前處理工具</li><li>Spine2D 資源整理工具</li><li>build 前資源打包流程</li><li>AI 生成素材後處理 workflow</li><li>CLI 自動化工具整合</li></ul><hr><h2 id="架構研究與遊戲分析"><a href="#架構研究與遊戲分析" class="headerlink" title="架構研究與遊戲分析"></a>架構研究與遊戲分析</h2><ul><li>Slay the Spire 2 架構解析</li><li>Event-driven architecture</li><li>Data-driven game design</li><li>Mod hook 設計思路</li></ul><hr><h2 id="聯絡方式"><a href="#聯絡方式" class="headerlink" title="聯絡方式"></a>聯絡方式</h2><p>作者：Aucer<br>Email：<a href="mailto:&#x61;&#x75;&#x63;&#101;&#x72;&#112;&#64;&#x67;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;">aucerp@gmail.com</a> </p><p>技術變革的浪潮中，滑著我的小船朝著燈塔前進~</p><p>歡迎交流遊戲開發、與相關商務合作。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Game Development </tag>
+            
+            <tag> Indie Game </tag>
+            
+            <tag> Godot </tag>
+            
+            <tag> C# </tag>
+            
+            <tag> .NET </tag>
+            
+            <tag> AI Workflow </tag>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Spine2D </tag>
+            
+            <tag> Automation </tag>
+            
+            <tag> Pipeline </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>How to Make Slay the Spire 2 Mods (Beginner Guide)(1)</title>
+      <link href="/2026/05/10/slay-the-spire-2-mod-sop-1/"/>
+      <url>/2026/05/10/slay-the-spire-2-mod-sop-1/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Slay-the-Spire-2-Mod-製作-SOP-1-準備工具"><a href="#Slay-the-Spire-2-Mod-製作-SOP-1-準備工具" class="headerlink" title="Slay the Spire 2 Mod 製作 SOP ( 1 ) 準備工具"></a>Slay the Spire 2 Mod 製作 SOP ( 1 ) 準備工具</h1><h2 id="簡介"><a href="#簡介" class="headerlink" title="簡介"></a>簡介</h2><pre>Slay the Spire 2 《殺戮尖塔2》是一款卡牌遊戲此系列文章會一步一步引導讀者完成《Slay the Spire 2》Mod 製作</pre><hr><h2 id="環境資訊"><a href="#環境資訊" class="headerlink" title="環境資訊"></a>環境資訊</h2><pre>作業系統：Windows 11</pre><h2 id="準備工具"><a href="#準備工具" class="headerlink" title="準備工具"></a>準備工具</h2><pre>1. Godot：遊戲影擎(開源免費)</pre><pre>2. BaseLib：開發模組工具(開源免費)</pre><pre>3. Visual Studio：代碼編輯器 (Community免費版)</pre><pre>4. Spine2D : 2D動畫編輯 (付費軟體)</pre><hr><h2 id="1-Godot（遊戲引擎）"><a href="#1-Godot（遊戲引擎）" class="headerlink" title="1. Godot（遊戲引擎）"></a>1. Godot（遊戲引擎）</h2><p>《殺戮尖塔2》使用 Godot 遊戲影擎開發。</p><p>製作Mod時我們需要用遊戲引擎來</p><ul><li>測試 Mod 是否正常運作  </li><li>調整 Mod 在遊戲場景內的效果</li></ul><h3 id="版本資訊"><a href="#版本資訊" class="headerlink" title="版本資訊"></a>版本資訊</h3><ul><li>使用版本：Godot_v4.5.1-stable_mono_win64</li><li>v4.5.1：引擎版本號</li><li>mono：支援 C# 的版本</li></ul><p>下載位置：<br><a href="https://github.com/godotengine/godot/releases">https://github.com/godotengine/godot/releases</a></p><p>需要下載：</p><pre>Godot_v4.5.1-stable_mono_win64.zip</pre><hr><h2 id="2-BaseLib（模組工具）"><a href="#2-BaseLib（模組工具）" class="headerlink" title="2. BaseLib（模組工具）"></a>2. BaseLib（模組工具）</h2><p>BaseLib 是由社群開發 用來簡化 Mod 開發流程 的 函式庫。<br>可以簡單理解為 快速開發 Mod 的工具</p><p>下載位置：<br><br>-<a href="https://github.com/Alchyr/BaseLib-StS2/releases">https://github.com/Alchyr/BaseLib-StS2/releases</a></p><hr><h2 id="3-Visual-Studio（代碼編輯器）"><a href="#3-Visual-Studio（代碼編輯器）" class="headerlink" title="3. Visual Studio（代碼編輯器）"></a>3. Visual Studio（代碼編輯器）</h2><p>《殺戮尖塔2》的 Mod 使用的程式語言為 C#</p><h3 id="安裝方式"><a href="#安裝方式" class="headerlink" title="安裝方式"></a>安裝方式</h3><p>下載位置：<br><br><a href="https://visualstudio.microsoft.com/downloads/">https://visualstudio.microsoft.com/downloads/</a></p><p>找到 <strong>Community</strong> 點選 </p><pre>免費下載</pre> 下載完後<br>使用 <strong>Visual Studio Installer</strong> 安裝<br><p><strong>Visaul studio 2022</strong></p><h3 id="必選項目"><a href="#必選項目" class="headerlink" title="必選項目"></a>必選項目</h3><ul><li>C#（.NET 9）</li></ul><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>須要安裝.Net C#才能 編譯 製作好的Mod</p><h2 id="4-Spine2D（2D-動畫工具）"><a href="#4-Spine2D（2D-動畫工具）" class="headerlink" title="4. Spine2D（2D 動畫工具）"></a>4. Spine2D（2D 動畫工具）</h2><pre>Spine2D 用來製作角色動畫與骨骼系統。</pre><pre>Slay the Spire 2 採用 2D 骨骼動畫系統想要做<strong> 會動的角色 </strong>的 Mod 才需要這個軟體</pre><h3 id="使用方式"><a href="#使用方式" class="headerlink" title="使用方式"></a>使用方式</h3><ol><li>準備角色圖片（拆圖 &#x2F; 分層）</li><li>匯入 Spine2D 並建立圖片資源</li><li>設計骨架（Skeleton）</li><li>綁定圖片（Slots &#x2F; Attachments）</li><li>設計動畫（Animation Timeline）</li><li>匯出並導入遊戲使用</li></ol><h3 id="版本資訊-1"><a href="#版本資訊-1" class="headerlink" title="版本資訊"></a>版本資訊</h3><ul><li>Spine 4.x（與 godot 4.X 相容版本）</li></ul><h3 id="官方網站"><a href="#官方網站" class="headerlink" title="官方網站"></a>官方網站</h3><p><a href="https://esotericsoftware.com/spine-download">https://esotericsoftware.com/spine-download</a></p><p>Spine2D 為商業軟體，可以透過官方網站購買或使用試用版。</p><h2 id="下一篇"><a href="#下一篇" class="headerlink" title="下一篇"></a>下一篇</h2><pre>Slay the Spire 2 Mod 製作 SOP ( 2 ) 開發環境設置</pre><p>下一篇會介紹：</p><p>Godot 開發環境設置（C# + Mod 測試環境）</p><p>包含：</p><ul><li>Godot 安裝與設定</li><li>C# Mono 環境配置</li></ul><p>Slay the Spire 2 Mod 製作 SOP ( 2 ) 開發環境設置</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Game Development </tag>
+            
+            <tag> C# </tag>
+            
+            <tag> Slay the Spire 2 </tag>
+            
+            <tag> Game Mods </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>How to Make Slay the Spire 2 Mods (Beginner Guide)(0)</title>
+      <link href="/2026/05/10/slay-the-spire-2-mod-sop-0/"/>
+      <url>/2026/05/10/slay-the-spire-2-mod-sop-0/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Slay-the-Spire-2-Mod-製作-SOP-0-教學目錄"><a href="#Slay-the-Spire-2-Mod-製作-SOP-0-教學目錄" class="headerlink" title="Slay the Spire 2 Mod 製作 SOP ( 0 ) 教學目錄"></a>Slay the Spire 2 Mod 製作 SOP ( 0 ) 教學目錄</h1><p>By Aucer 於 2026&#x2F;05&#x2F;10<br></p><h2 id="簡介"><a href="#簡介" class="headerlink" title="簡介"></a>簡介</h2><pre>Slay the Spire 2 《殺戮尖塔2》是一款卡牌遊戲此系列文章會一步一步引導讀者完成《Slay the Spire 2》Mod 製作</pre><hr><h2 id="目錄"><a href="#目錄" class="headerlink" title="目錄"></a>目錄</h2><h3 id="一、Mod-製作"><a href="#一、Mod-製作" class="headerlink" title="一、Mod 製作"></a>一、Mod 製作</h3><table><thead><tr><th>#</th><th>內容</th></tr></thead><tbody><tr><td>1.1</td><td>準備工具</td></tr><tr><td>1.2</td><td>開發環境設置</td></tr><tr><td>1.3</td><td>替換角色背景圖片</td></tr><tr><td>1.4</td><td>替換角色背景音樂</td></tr><tr><td>1.5</td><td>替換角色音效</td></tr><tr><td>1.6</td><td>替換卡牌圖片</td></tr><tr><td>1.7</td><td>替換卡牌音效</td></tr><tr><td>1.8</td><td>替換特效</td></tr><tr><td>1.9</td><td>新增能力、添加遺物</td></tr><tr><td>1.10</td><td>新增卡牌</td></tr><tr><td>1.11</td><td>新增角色</td></tr></tbody></table><hr><h3 id="二、2D角色骨骼動畫製作（Spine2D）"><a href="#二、2D角色骨骼動畫製作（Spine2D）" class="headerlink" title="二、2D角色骨骼動畫製作（Spine2D）"></a>二、2D角色骨骼動畫製作（Spine2D）</h3><table><thead><tr><th>#</th><th>軟體名稱</th><th>內容</th></tr></thead><tbody><tr><td>2.1</td><td>Krita</td><td>繪製角色</td></tr><tr><td>2.2</td><td>Krita</td><td>拆分角色素材</td></tr><tr><td>2.3</td><td>Spine2D</td><td>骨骼綁定</td></tr><tr><td>2.4</td><td>Spine2D</td><td>讓角色動起來</td></tr></tbody></table><hr><h3 id="三、Godot-動畫整合"><a href="#三、Godot-動畫整合" class="headerlink" title="三、Godot 動畫整合"></a>三、Godot 動畫整合</h3><table><thead><tr><th>#</th><th>軟體名稱</th><th>內容</th></tr></thead><tbody><tr><td>3.1</td><td>Godot</td><td>編譯或下載有動畫插件的版本</td></tr><tr><td>3.2</td><td>Godot</td><td>導入2D角色骨骼動畫</td></tr><tr><td>3.3</td><td>Godot</td><td>調用單一動畫</td></tr><tr><td>3.4</td><td>Godot</td><td>調用混合動畫</td></tr><tr><td>3.5</td><td>Godot</td><td>讓角色 Q 彈</td></tr><tr><td>3.6</td><td>Godot</td><td>讓角色注視滑鼠</td></tr><tr><td>3.7</td><td>Godot</td><td>製作特效</td></tr><tr><td>3.8</td><td>Godot</td><td>製作事件系統</td></tr><tr><td>3.9</td><td>Godot</td><td>事件系統結合播放音效</td></tr><tr><td>3.10</td><td>Godot</td><td>事件系統結合粒子特效</td></tr><tr><td>3.11</td><td>Godot</td><td>製作 軌跡系統（Bézier 曲線 &#x2F; 拋物線）</td></tr><tr><td>3.12</td><td>Godot</td><td>Shader 讓角色發光</td></tr><tr><td>3.13</td><td>Godot</td><td>客製化場景過場動畫</td></tr><tr><td>3.14</td><td>Godot</td><td>製作 演出系統</td></tr><tr><td>3.15</td><td>Godot</td><td>壓縮素材</td></tr></tbody></table><hr><h2 id="使用軟體"><a href="#使用軟體" class="headerlink" title="使用軟體"></a>使用軟體</h2><table><thead><tr><th>軟體名稱</th><th>軟體類型</th><th>費用</th><th>連結</th></tr></thead><tbody><tr><td>Godot</td><td>遊戲引擎</td><td>免費</td><td><a href="https://godotengine.org/">https://godotengine.org</a></td></tr><tr><td>Krita</td><td>繪圖軟體</td><td>免費</td><td><a href="https://krita.org/">https://krita.org</a></td></tr><tr><td>Spine2D</td><td>2D 動畫製作</td><td>付費（有試用版）</td><td><a href="https://esotericsoftware.com/">https://esotericsoftware.com</a></td></tr></tbody></table><h2 id="下一篇"><a href="#下一篇" class="headerlink" title="下一篇"></a>下一篇</h2><pre>Slay the Spire 2 Mod 製作 SOP ( 1 ) 準備工具</pre><h2 id="聯絡方式"><a href="#聯絡方式" class="headerlink" title="聯絡方式"></a>聯絡方式</h2><p>作者：Aucer (讀作 “阿sir”)<br><br>Email：<a href="mailto:&#97;&#117;&#x63;&#x65;&#x72;&#112;&#64;&#103;&#109;&#x61;&#x69;&#108;&#46;&#99;&#111;&#x6d;">aucerp@gmail.com</a><br><br>歡迎交流遊戲開發、Mod 製作與相關商務諮詢</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Game Development </tag>
+            
+            <tag> C# </tag>
+            
+            <tag> Slay the Spire 2 </tag>
+            
+            <tag> Game Mods </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2026/05/10/hello-world/"/>
       <url>/2026/05/10/hello-world/</url>
